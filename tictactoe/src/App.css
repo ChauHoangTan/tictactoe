@@ -1,0 +1,27 @@
+
+.game{
+  margin: 2rem 2rem;
+  .game-board{
+    .board{
+      width: 300px;
+      height: 300px;
+      display: grid;
+      grid-template-rows: 100px 100px 100px;
+      .board-row{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+      }
+    }
+    
+  }
+  
+}
+
+#descending{
+  margin-left: 50px;
+}
+
+.highlight{
+  font-weight: bold;
+  color: red;
+}
